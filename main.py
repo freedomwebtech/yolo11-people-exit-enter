@@ -67,6 +67,3 @@ while True:
 # Release the video capture object and close the display window
 cap.release()
 cv2.destroyAllWindows()
-
-# Save and close the workbook
-wb.save(excel_file_path)
